@@ -1,3 +1,4 @@
+### Abstract
 Sentiment analysis is a natural language processing (NLP) task that involves analysing text
 data to determine the sentiment expressed in it. With the increasing use of social media and
 online communication, sentiment analysis has become an essential tool for businesses to
@@ -11,3 +12,16 @@ evaluate the performance of the BERT model using metrics such as accuracy, preci
 and F1-score. The outcome of this project will be a sentiment analysis model that can accurately
 classify the sentiment of amazon reviews, which can be used by businesses to improve their
 products and services.
+### Requirements
+1. Streamlit Framework
+2. Transformers
+3. Torch
+### Build
+Run the code of model.txt file in a notebook to build the model which gives you a bin file named 'best_state_model.bin'
+after training.
+### Execution
+Place the files app.py, module.py, img.png and the generated bin file in a editor.
+Run the command `streamlit run app.py` in editor, browser will automatically opens and asks for a text.
+### Checking for results
+Place a text in the textbox and click `Analyze` to get the sentiment of text.
+
